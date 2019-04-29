@@ -1,0 +1,13 @@
+Ansible - Configurtion management tool - mainly Infrastructure automation tool - solves issue with deploying & managing servers effeciently, reliably 
+Allows to write infrastructure as code and save it in the repository - writing code allows to test the code script if its resulting in desired state - also allows easy & quick roll back to the previous state.
+Agentless architecture.
+
+Features : 
+  1. Idempotent - configures the infrastuture in the same desired state every single time its run.
+  2. Orchestration - allows to make the changes to infra in an order. 
+  
+Installing Ansible :
+  1. Dependencies : Works over SSH protocol, requires Python to run
+  2. To install ansible : pip install ansible
+  3. To check if installed : ansible --version 
+  
